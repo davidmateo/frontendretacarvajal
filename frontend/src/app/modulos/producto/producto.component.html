@@ -1,0 +1,29 @@
+<div class="producto hoverable">
+    <img class="imagen" src="https://res.cloudinary.com/carvajal/image/upload/dpr_auto,q_80,f_auto,w_auto/v1580932116/home/img-industrial_p176cm.png" alt="Industria img">
+    <div class="border">
+      <i><h1>Industria</h1></i>
+      <p>Nos conectamos con las necesidades de tu mercado y las convertimos en productos innovadores y sostenibles.</p>
+      <p>Empaques para tipo de negocio</p>
+    </div>
+</div>
+<!---->
+<div class="producto hoverable" *ngFor="let p of Producto">
+    <img class="imagen" src="{{p.Img}}" alt="{{p.Nombre}}">
+    <div class="border">
+       <h1>{{p.Nombre}}</h1>
+       <h6 *ngIf="activeSession" class="gris">Cantidad Stock:{{p.CantStock}}</h6>
+      <p> {{p.Descripcion}}</p>
+      <p *ngIf="activeSession">{{p.Precio| currency }} COP  <button  (click)="carrito(p.id)" class=" waves-effect green accent-3 btn" *ngIf="activeSession" > <i class="material-icons larger">local_grocery_store</i><p></p></button></p>
+      <p>Empaques por tipo de negocio</p>
+    </div>
+  </div>
+<!---->
+  <div class="producto hoverable">
+    <img class="imagen" src="https://res.cloudinary.com/carvajal/image/upload/dpr_auto,q_80,f_auto,w_auto/v1580932112/home/burguesa_home_wtgr5r.png" alt="Food serviceimg">
+    <div class="border">
+      <i><h1>Food Service</h1></i>
+      <p>Nos apasiona ofrecer empaques que generen valor a cada negocio, diseñamos productos que mejoren la experiencia de tus comidas en todo lugar y en todo momento.</p>
+      <p>Empaques para tipo de negocio</p>
+    </div>
+</div>
+

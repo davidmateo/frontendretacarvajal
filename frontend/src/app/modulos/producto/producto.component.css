@@ -1,0 +1,58 @@
+.imagen{
+    max-width: 100%;
+    width: 1fr;
+    height: auto;
+    border-radius: .3rem;
+    box-shadow: 1px 2px 3px grey;
+}
+.border{
+    border-radius: 50% 20% 30% 10%;
+    box-shadow:2px 3px 10px rgb(240, 240, 240) ;
+    background-color: rgb(255, 255, 255);
+}
+h1{
+    font-size: 5vh;
+    font-weight: 700;
+}
+p{
+    font-style:italic;
+    color: #333;
+    font-weight: 400;
+    font-size:2vh ;
+}
+a{
+    text-decoration: none;
+    color :gray;
+}
+.button{
+    background-color: rgb(60, 189, 60);
+    padding: 0%;
+    align-items: center;
+}
+body{
+    margin: 0%;
+}
+.producto{
+    object-fit: contain;
+    border-radius: 1vh;
+    margin: 0 1vh 0 1vh;
+    box-shadow: 3px 2px 2px grey;
+    padding: 1vh;
+   background-image: url("https://img.freepik.com/vector-gratis/fondo-blanco-gris-brillante-lineas-onduladas_1017-25101.jpg?w=996");
+    /*background-image: url("https://img.freepik.com/vector-gratis/fondo-geometrico-plano_23-2148967370.jpg?w=740");*/
+    color:#333;
+}
+@media screen and (min-width:990px){
+    h1{
+        font-size: 7vh;
+    }
+    p{
+        font-size: 3vh;
+    }
+    .producto{
+        display:grid;
+        column-gap:1vh;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+}

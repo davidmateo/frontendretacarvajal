@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }.page-footer .logo{
+    width:50%;
+    height: auto;
+}
+.page-footer{
+    box-shadow: 2px 3px 6px gray;
+}
+.logoconred{
+    width: 20vh ;
+    height: auto;
+}
+.top{
+    border-top:2px solid gray;
+    padding: 1vh;
+}
+.top img{
+    position: relative;
+}
+.slg{
+    padding: 1vh;
+    background: -prefix-linear-gradient(left, rgb(73, 2, 121), rgb(212, 31, 122));
+    background: linear-gradient(to right, rgb(73, 2, 121), rgb(212, 31, 122));
+}
+.slg .redi{
+    max-width: 100%;
+}
+.trabaje{
+    background-image:url("https://www.carvajaltys.com/wp-content/themes/carvajaltys/assets/images/footer/trabaje-con-nosotros.png") ;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+a{
+    color: white;
+}

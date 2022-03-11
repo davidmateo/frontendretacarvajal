@@ -1,0 +1,21 @@
+.nav-wrapper{
+    justify-content: space-between !important;
+    background-image: url("https://cdn.pixabay.com/photo/2016/10/11/21/43/geometric-1732847_960_720.jpg");
+    background-position: center;
+}
+
+.nav-wrapper .logo{
+    width: auto;
+    height: 100%;
+    box-shadow: 2px 2px 10px rgb(192, 191, 191);
+}
+.slg{
+    padding: 1vh;
+    background: -prefix-linear-gradient(left, rgb(73, 2, 121), rgb(212, 31, 122));
+    background: linear-gradient(to right, rgb(73, 2, 121), rgb(212, 31, 122));
+}
+a{
+    font-weight: 450;
+    font-family: 'Segoe UI', Tahoma,  Verdana, sans-serif;
+    font-size: 3vh;
+}

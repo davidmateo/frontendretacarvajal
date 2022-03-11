@@ -1,0 +1,23 @@
+.slg{
+    padding: .3vh;
+    background: -prefix-linear-gradient(left, rgb(73, 2, 121), rgb(212, 31, 122));
+    background: linear-gradient(to right, rgb(73, 2, 121), rgb(212, 31, 122));
+}
+body{
+    height: 100%;
+}
+.footer{
+    display: grid;
+    grid-auto-rows: repeat(auto-fit, minmax(100px,1fr)) ;
+    grid-auto-flow:initial;
+    min-height:auto;
+    padding: .5vh;
+
+}
+.main{
+    display: grid;
+    grid-template-rows:  minmax(4fr,auto) ;
+    min-height:auto;
+    padding: .5vh;
+    margin-bottom: 4rem !important;
+}
